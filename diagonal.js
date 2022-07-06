@@ -5,7 +5,7 @@ let matrix = [
         [0,0,5,0],
         [0,0,0,3],
 ]
-function SpiralForm(m,n,matrix){ // m=> no of rows  , n => no of columns
+function Diagonal(m,n,matrix){ // m=> no of rows  , n => no of columns
 let i,k=0;l=0; // i => iteration , k => rows index , l => column index
 
 let last_row = m-1, last_col = n-1;
@@ -38,4 +38,4 @@ while(k <= last_row && l <= last_col ){
     }
 }
 
-console.log(SpiralForm(4,4,matrix));
+console.log(Diagonal(4,4,matrix));
